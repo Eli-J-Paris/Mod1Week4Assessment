@@ -79,8 +79,11 @@ You need to create a reference inside of the xUnit test project and add a projec
     }
 ```
 Check_NumOfWheels_Color_MilesDriven_IsCreated
+
 Check_SummaryMethod_ReturnsString
+
 Check_DriveMethod_AddsInt
+
 Check_PaintMethod_CanChange_CarColor
 
 

@@ -26,18 +26,25 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
     A. `var bench = new Chair(24, true);`  
     B. `Chair bench = new Chair(24, true);`  
     C. `var bench = new(24, true);`  
-    D. `Chair bench = new(24, true);`  
+    D. `Chair bench = new(24, true);` 
+    
+    C. would not be a vaild way to create an instance of a Chair because it does not contain the Chair class on either side of the '=' sign. Var doesn't know what it should be.
     
 2. Imagine you are interviewing for your first job.  The interviewer asks "What can you tell me about OOP?".  Write your response below:
 
+Object Oriented Programming is a programming model that allows the developer to create reusable pieces of code by creating Classes aka objects that can represent concrete instances inside of a program.
 
 3. What is Automated Testing?
 
+Automated testing is a way to test methods and class inside of a seperate project to determine if they run as intended. Automated testing also provides direct feedback on what works and what doesn't
 
 4. What are some benefits of creating tests for our projects?
 
+Direct feeback for the developer is one of the advantages to automated testing. Another one is that is has the potential to save time when testing new classes or methods insted of having to run the program multiple times to reach and replicate and bug.
 
 5. When you create a test project, you do not immediately have access to the class(es) in the project that you are testing.  What do you need to do in order to have access to those classes?
+
+You need to create a reference inside of the xUnit test project and add a project refernce to the project that you are trying to test.
 
 6. Take a look at the class below.  Write out the **names** of each test you would write to verify that this class is working.
 ```c#
@@ -71,7 +78,10 @@ Edit this `README.md` file - answer the BLANK questions before moving on to the 
         }
     }
 ```
-
+Check_NumOfWheels_Color_MilesDriven_IsCreated
+Check_SummaryMethod_ReturnsString
+Check_DriveMethod_AddsInt
+Check_PaintMethod_CanChange_CarColor
 
 
 ## Exercise (8 Points Possible)
